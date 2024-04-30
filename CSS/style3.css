@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.design_parah h3{
+    color: brown;
+    text-shadow: red;
+    font-family: "Poppings", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.design_parah p{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.design_parah{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-image: url(https://img.lovepik.com//back_pic/05/61/59/845b4b1a0bc4514.jpg_wh860.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
